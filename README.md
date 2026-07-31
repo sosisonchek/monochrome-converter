@@ -12,7 +12,7 @@
 2. Введите `pip install -e .`.
 
 #### Аргументы:
-monochrome [file НАЗВАНИЕ ФОТОГРАФИИ] [--size РАЗМЕР] [--white ЦВЕТ] [--black ЦВЕТ] [--sharpness РЕЗКОСТЬ ПЕРЕХОДА]
+monochrome [file НАЗВАНИЕ ФОТОГРАФИИ] [--size РАЗМЕР] [--white ЦВЕТ] [--dark ЦВЕТ] [--sharpness РЕЗКОСТЬ ПЕРЕХОДА]
 
 Пример использования:
 monochrome yuuri.jpg --size 1920x1080
