@@ -31,7 +31,7 @@ def monochrome(args):
         new_image = np.zeros((height, width, 3), dtype=np.uint8)
 
         white = list(colors.get(args.white).split(', '))
-        black = list(colors.get(args.black).split(', '))
+        black = list(colors.get(args.dark).split(', '))
 
         new_image[image >= color_average] = white
         new_image[image < color_average] = black
