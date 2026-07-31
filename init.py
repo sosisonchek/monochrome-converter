@@ -24,7 +24,7 @@ def monochrome(args):
         img = img.convert('L')
         image = np.array(img)
 
-        color_average = int(np.mean(image)) + args.opacity
+        color_average = int(np.mean(image)) + args.sharpness
         color_average = min(255, max(0, color_average))
 
         height, width = image.shape
