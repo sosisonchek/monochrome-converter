@@ -11,8 +11,8 @@
 1. Откройте эмулятор терминала в директории этого проекта.
 2. Введите `pip install -e .`.
 #### Если вы используете Arch Linux:
-1. Скачайте pipx: 'sudo pacman -S python-pipx'
-2. Введите 'pipx install .' в директории проекта
+1. Скачайте pipx: `sudo pacman -S python-pipx`
+2. Введите `pipx install .` в директории проекта
 
 #### Аргументы:
 monochrome [file НАЗВАНИЕ ФОТОГРАФИИ] [--size РАЗМЕР] [--white ЦВЕТ] [--black ЦВЕТ] [--sharpness РЕЗКОСТЬ ПЕРЕХОДА]
