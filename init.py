@@ -37,4 +37,6 @@ def monochrome(args):
         new_image[image < color_average] = black
 
         result = Image.fromarray(new_image, 'RGB')
+
+        result.save('output.jpg')
         result.show()

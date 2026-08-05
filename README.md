@@ -10,9 +10,12 @@
 #### Добавление в PATH
 1. Откройте эмулятор терминала в директории этого проекта.
 2. Введите `pip install -e .`.
+**Если вы используете Arch Linux:**
+1. Скачайте pipx: 'sudo pacman -S python-pipx'
+2. Введите 'pipx install .' в директории проекта
 
 #### Аргументы:
-monochrome [file НАЗВАНИЕ ФОТОГРАФИИ] [--size РАЗМЕР] [--white ЦВЕТ] [--dark ЦВЕТ] [--sharpness РЕЗКОСТЬ ПЕРЕХОДА]
+monochrome [file НАЗВАНИЕ ФОТОГРАФИИ] [--size РАЗМЕР] [--white ЦВЕТ] [--black ЦВЕТ] [--sharpness РЕЗКОСТЬ ПЕРЕХОДА]
 
 Пример использования:
 monochrome yuuri.jpg --size 1920x1080
